@@ -27,6 +27,13 @@ button {
     padding: 8px 0px 8px 0px;
 }
 
+button:active,
+.playing {
+    transition: all 0.07s;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #ffc600;
+}
+
 h2 {
     margin-bottom: 4px;
     color: white;
